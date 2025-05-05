@@ -30,6 +30,7 @@ flagopts=(
     "disable-ui"
     "noexit"
     "nopreflight"
+    "monitor"
 )
 for opt in "${flagopts[@]}"; do
     # Associated variables have underscores instead of hyphens
